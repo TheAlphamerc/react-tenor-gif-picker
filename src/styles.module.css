@@ -1,4 +1,7 @@
 /* add css module styles here (optional) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .test {
   margin: 2em;

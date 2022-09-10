@@ -1,12 +1,12 @@
 var React = require('react');
 
-var styles = {"test":"_3ybTi"};
-
 var ExampleComponent = function ExampleComponent(_ref) {
   var text = _ref.text;
   return React.createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
+    className: 'flex flex-col items-center justify-center h-full w-full'
+  }, React.createElement("div", {
+    className: 'text-xl font-bold text-red-500'
+  }, text));
 };
 
 exports.ExampleComponent = ExampleComponent;

@@ -4,7 +4,11 @@ import { ExampleComponent } from 'react-tenor-gif-picker'
 import 'react-tenor-gif-picker/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div className='App'>
+      <ExampleComponent text='Create React Library Example 😄' />
+    </div>
+  )
 }
 
 export default App

@@ -1,12 +1,13 @@
 import { createElement } from 'react';
 
-var styles = {"test":"_3ybTi"};
-
-var ExampleComponent = function ExampleComponent(_ref) {
-  var text = _ref.text;
+const ExampleComponent = ({
+  text
+}) => {
   return createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
+    className: 'flex flex-col items-center justify-center h-full w-full'
+  }, createElement("div", {
+    className: 'text-xl font-bold text-red-500'
+  }, text));
 };
 
 export { ExampleComponent };
