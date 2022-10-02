@@ -6,7 +6,8 @@ react-tenor-gif-picker is a React component that allows you to easily add a Teno
 
 ## Live Demo
 
-[Live Demo](https://thealphamerc.github.io/react-tenor-gif-picker/) [Code Sandbox](https://codesandbox.io/s/react-tenor-gif-picker-example-c7jzs1?file=/src/App.js)
+For live demo [check here](https://thealphamerc.github.io/react-tenor-gif-picker/)
+For example app check [Code Sandbox](https://codesandbox.io/s/react-tenor-gif-picker-example-gxpym6?file=/src/App.js)
 
 ## Install
 

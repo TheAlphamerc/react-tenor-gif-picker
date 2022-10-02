@@ -1,7 +1,7 @@
 {
   "name": "react-tenor-gif-picker",
   "version": "1.0.0",
-  "description": "React library to search and pick Gif from Tenor",
+  "description": "react-tenor-gif-picker is a React component that allows you to easily add a Tenor GIF picker to your React app.",
   "author": "thealphamerc",
   "license": "MIT",
   "repository": "thealphamerc/react-tenor-gif-picker",
@@ -11,6 +11,20 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "tenor",
+    "Gif",
+    "picker",
+    "search",
+    "component",
+    "react-component",
+    "react-library",
+    "react-component-library"
+  ],
+  "contributors": [
+    "thealphamerc"
+  ],
   "scripts": {
     "build": "npm run build:css && microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
