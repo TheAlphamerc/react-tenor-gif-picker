@@ -14,11 +14,15 @@
     }
 
     .Card {
-        margin: 0;
+        max-width: calc(-120px + 100vw);
+        max-height: calc(-119px + 100vh);
+        margin-right: auto;
+        margin-left: auto;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 60px;
+        right: 0px;
+        left: 0px;
+        overflow: hidden
     }
 }
 

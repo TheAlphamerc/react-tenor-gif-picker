@@ -1,6 +1,2 @@
-/// <reference types="react" />
-interface Props {
-    text: string;
-}
-export declare const ExampleComponent: ({ text }: Props) => JSX.Element;
-export {};
+import TenorGifPicker from './component/picker';
+export default TenorGifPicker;
