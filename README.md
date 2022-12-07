@@ -17,7 +17,7 @@ npm install --save react-tenor-gif-picker
 
 ## Usage
 
-### How to use UnsplashImagePickerModal
+### How to use TenorGifPicker
 
 ```tsx
 import React, { Component } from 'react'
